@@ -1,3 +1,8 @@
 .card {
   background-color: #ffffff;
 }
+@media screen and (max-width: 800px) {
+  .card {
+    margin-top: 4rem;
+  }
+}

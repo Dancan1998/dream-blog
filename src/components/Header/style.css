@@ -33,3 +33,48 @@
 .socialMedia a i:hover {
   color: var(--primaryColor);
 }
+.fa-bars,
+.fa-times {
+  display: none;
+}
+/* Making the header responsive */
+@media screen and (max-width: 800px) {
+  .fa-bars,
+  .fa-times {
+    position: absolute;
+    cursor: pointer;
+    right: 2.5rem;
+    color: whitesmoke;
+    /* float: right;*/
+    font-size: 2rem;
+    /* margin: 0rem 1rem; */
+    display: block;
+    top: 0.5rem;
+  }
+  .header {
+    display: none;
+    /* left: -100%; */
+    transition: all 0.3s linear;
+  }
+  .header.active {
+    display: block;
+    /* left: 0; */
+    text-align: center;
+    transition: all 0.3s ease;
+    /* background-color: rgba(0, 0, 0, 0.8); */
+    /* color: whitesmoke; */
+  }
+  .headerMenu {
+    display: flex;
+    flex-direction: column;
+    padding: 4rem 0;
+    margin: 4rem 0;
+  }
+  .headerMenu a {
+    padding: 1rem;
+    font-size: 1.5rem;
+  }
+  .socialMedia a {
+    font-size: 1.5rem;
+  }
+}
