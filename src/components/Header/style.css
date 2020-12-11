@@ -1,0 +1,35 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.header {
+  margin: 0.8rem 0;
+}
+.headerMenu a {
+  display: inline-block;
+  text-decoration: none;
+  color: #0b0c10;
+  letter-spacing: 0.1rem;
+  transition: all 0.3s ease;
+  text-transform: uppercase;
+  font-family: var(--roboto);
+  font-size: 0.8rem;
+}
+.headerMenu a:hover {
+  color: var(--primaryColor);
+}
+.headerMenu a + a {
+  margin: 0rem 0.5rem;
+}
+.socialMedia a {
+  text-decoration: none;
+}
+.socialMedia .margiN {
+  margin: 0rem 0.5rem 0rem 0.5rem;
+}
+.socialMedia a i {
+  color: var(--titleColor);
+}
+.socialMedia a i:hover {
+  color: var(--primaryColor);
+}

@@ -1,0 +1,45 @@
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbarMenu {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.navbarMenu li {
+  display: inline-block;
+  margin: 0.3rem 0.5rem;
+}
+.navbarMenu li a {
+  text-decoration: none;
+  color: var(--titleColor);
+  font-size: 1.1rem;
+  text-transform: capitalize;
+  font-family: var(--roboto);
+  transition: all 0.3s linear;
+  display: inline;
+}
+.navbarMenu li a:hover {
+  color: var(--primaryColor);
+}
+input {
+  font-size: 0.9rem;
+}
+.search i {
+  margin: 0rem 0.1rem 0rem 0.2rem;
+  color: var(--titleColor);
+}
+.search i:hover {
+  cursor: pointer;
+}
+input {
+  border: none;
+}
+input:focus {
+  outline: none;
+}
+input::placeholder {
+  color: var(--primaryColor);
+}
