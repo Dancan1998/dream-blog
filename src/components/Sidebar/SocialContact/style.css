@@ -1,0 +1,23 @@
+.contact {
+  text-align: center;
+}
+.contact h3 {
+  text-transform: uppercase;
+  font-family: var(--livvic);
+  letter-spacing: 0.1rem;
+  padding: 1rem 0rem 0.8rem 0rem;
+}
+.icons {
+  padding-bottom: 1.2rem;
+}
+.icons a {
+  text-decoration: none;
+  color: whitesmoke;
+  padding: 1rem;
+  font-size: 1.2rem;
+}
+.icons i {
+  background-color: var(--primaryColor);
+  padding: 0.5rem;
+  border-radius: 1rem;
+}

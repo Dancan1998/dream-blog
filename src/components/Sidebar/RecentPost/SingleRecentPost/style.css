@@ -1,0 +1,32 @@
+.recentText {
+  padding: 0.4rem 0rem 1rem 0.4rem;
+}
+.recentText h4 {
+  text-transform: capitalize;
+  font-family: var(--opensans);
+  padding: 1rem 0rem 0.8rem 0rem;
+}
+h4 a {
+  text-decoration: none;
+  color: var(--titleColor);
+  transition: all 0.3s ease-in-out;
+}
+h4 a:hover {
+  color: var(--primaryColor);
+}
+.recentHidden {
+  color: rgba(0, 0, 0, 0.4);
+}
+.recentHidden i {
+  margin: 0rem 0.5rem;
+  font-size: 0.8rem;
+}
+.recentHidden span {
+  font-family: 0.8rem;
+}
+hr {
+  border: none;
+  border-top: 1px dotted var(--titleColor);
+  height: 1px;
+  width: 80%;
+}

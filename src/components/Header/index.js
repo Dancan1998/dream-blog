@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
-
+import { Link } from "react-router-dom";
 function Header() {
   const [toggle, setToggle] = useState(false);
   const handleToggle = () => {
@@ -13,9 +13,10 @@ function Header() {
       </div>
       <header className={toggle ? "header active" : "header"}>
         <nav className="headerMenu">
-          <a href="#">Home</a>
-          <a href="#">About us</a>
-          <a href="#">Contact Us</a>
+          <Link to="/">Home</Link>
+          <Link to="/aboutus">About Us</Link>
+          <Link to="/post">Posts</Link>
+          <Link to="/contactus">Contact Us</Link>
         </nav>
         <div className="socialMedia">
           <a href="#" className="margiN">

@@ -1,0 +1,29 @@
+.title {
+  text-align: center;
+}
+.title h3 {
+  text-transform: uppercase;
+  font-family: var(--livvic);
+  letter-spacing: 0.1rem;
+  padding: 1rem 0rem 0.8rem 0rem;
+}
+.img-container {
+  padding: 1rem 1rem;
+}
+.img-container img {
+  display: block;
+  margin: 0 auto;
+  object-fit: cover;
+}
+.aboutText p {
+  font-family: var(--roboto);
+  padding-top: 1rem;
+  font-weight: 100;
+  color: var(--titleColor);
+}
+@media screen and (max-width: 800px) {
+  .aboutText p {
+    width: 70%;
+    margin: 0 auto;
+  }
+}

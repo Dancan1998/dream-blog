@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./style.css";
+import { Link } from "react-router-dom";
 function Navbar() {
   const [show, setShow] = useState(false);
   const handleToggle = () => {
@@ -9,13 +10,16 @@ function Navbar() {
     <div className="navbar">
       <ul className="navbarMenu">
         <li>
-          <a href="#">Home</a>
+          <Link to="/">Home</Link>
         </li>
         <li>
-          <a href="#">About Us</a>
+          <Link to="/about">About Us</Link>
         </li>
         <li>
-          <a href="#">Posts</a>
+          <Link to="/post">Posts</Link>
+        </li>
+        <li>
+          <Link to="/contactus">Contact Us</Link>
         </li>
       </ul>
       <div className="search">

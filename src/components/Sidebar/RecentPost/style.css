@@ -1,0 +1,9 @@
+.recentTitle {
+  text-align: center;
+}
+.recentTitle h3 {
+  text-transform: uppercase;
+  font-family: var(--livvic);
+  letter-spacing: 0.1rem;
+  padding: 1rem 0rem 0.8rem 0rem;
+}

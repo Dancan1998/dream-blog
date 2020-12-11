@@ -1,7 +1,11 @@
 import React from "react";
 import "./style.css";
 function Home() {
-  return <div></div>;
+  return (
+    <div>
+      <h2>Home Container</h2>
+    </div>
+  );
 }
 
 export default Home;
